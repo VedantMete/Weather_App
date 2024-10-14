@@ -22,9 +22,36 @@ public class WeatherAppGui extends JFrame {
         JButton searchButton = new JButton(loadImage("src/assets/search.png"));
         searchButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         searchButton.setBounds(375,13,47,45);
+        JLabel weatherConditionImage = new JLabel(loadImage("src/assets/cloudy.png"));
+        weatherConditionImage.setBounds(0,125,450,217);
+        JLabel temperatureText = new JLabel("10 C");
+        temperatureText.setBounds(0,350,450,54);
+        temperatureText.setFont(new Font("Dialong", Font.BOLD,48));
+        temperatureText.setHorizontalAlignment(SwingConstants.CENTER);
+        JLabel weatherConditionDesc = new JLabel("Cloudy");
+        weatherConditionDesc.setBounds(0,405,450,36);
+        weatherConditionDesc.setFont(new Font("Dialog",Font.PLAIN, 32));
+        weatherConditionDesc.setHorizontalAlignment(SwingConstants.CENTER);
+        JLabel humidityImage = new JLabel(loadImage("src/assets/humidity.png"));
+        humidityImage.setBounds(15,500,74,66);
+        JLabel humidityText = new JLabel("<html><b>Humidity</b> 100%</html>");
+        humidityText.setBounds(90,500,85,55);
+        humidityText.setFont(new Font("Dialog", Font.PLAIN, 16));
+        JLabel windspeedImage = new JLabel(loadImage("src/assets/windspeed.png"));
+        windspeedImage.setBounds(220,500,74,66);
+        JLabel windspeedText = new JLabel("<html><b>Windspeed</b> 15km/h</html>");
+        windspeedText.setBounds(310,500,85,55);
+        windspeedText.setFont(new Font("Dialog", Font.PLAIN, 16));
+
         add(searchTextField);
         add(searchButton);
-
+        add(weatherConditionImage);
+        add(temperatureText);
+        add(weatherConditionDesc);
+        add(humidityImage);
+        add(humidityText);
+        add(windspeedImage);
+        add(windspeedText);
     }
     private ImageIcon loadImage(String resourcePath){
        try{

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abe6b784-c69b-4d98-84fa-41f25d5aebac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeatherAppGui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather_App.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WeatherAppGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherAppGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cloudy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/cloudy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/humidity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/humidity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/windspeed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/windspeed.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
