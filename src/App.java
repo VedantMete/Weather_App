@@ -5,8 +5,10 @@ public class App {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-//                new WeatherAppGui().setVisible(true);
-                System.out.println(WeatherApp.getLocationData("Tokyo"));
+               new WeatherAppGui().setVisible(true);
+ //               System.out.println(WeatherApp.getLocationData("Mumbai"));
+  //              System.out.println(WeatherApp.getCurrentTime());
+
             }
         });
     }
