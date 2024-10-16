@@ -6,8 +6,6 @@ public class App {
             @Override
             public void run() {
                new WeatherAppGui().setVisible(true);
- //               System.out.println(WeatherApp.getLocationData("Mumbai"));
-  //              System.out.println(WeatherApp.getCurrentTime());
 
             }
         });
